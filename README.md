@@ -1,0 +1,2 @@
+# SlimeCraftSMPWebsite
+Website for SlimeCraftSMP
