@@ -32,7 +32,7 @@
             </p>
             <h2>We have-</h2>
             <p>
-                Custom terrain in the overworld , nether and the end! Click here to view pictures.</br>
+                <br>Custom terrain in the overworld , nether and the end! Click here to view pictures.</br>
                 <br>An active staff team from different parts of the world to help you within 24 hours!</br>
                 <br>A skills plugin like that on hypixel skyblock.</br>
                 <br>Custom enchants! Get one or multiple of the OP enchants you like and dominate the server!</br>
