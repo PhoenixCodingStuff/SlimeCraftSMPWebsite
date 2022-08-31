@@ -38,12 +38,12 @@
 
 <style>
     .navbar {
-        background-color: #1e1c1a;
+        background-color: #008b47;
         margin: 0;
         padding-left: 128px;
         padding-right: 128px;
         height: 80px;
-        color: #a1a1a2;
+        color: #6bb64a;
         display: flex;
         justify-content: space-around;
         align-items: center;
