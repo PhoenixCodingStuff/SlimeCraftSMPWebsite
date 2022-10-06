@@ -13,3 +13,46 @@ body {
   margin: 0;
 }
 
+h1, h2, p {
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  color: blue;
+}
+
+button {
+  display: block;
+  color: var(--color);
+  transition: 0.25s;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: auto;
+  margin-top: 2em;
+  padding: 1em 2em;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+.offset {
+  --color: #1973bc;
+  --hover: #19bc8b;
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:hover, .offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.inverted {
+  --color: #19bc8b;
+  --hover: #1973bc;
+}

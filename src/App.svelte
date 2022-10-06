@@ -3,7 +3,6 @@
   import Rules from './pages/Rules.svelte';
   import Vote from './pages/Vote.svelte';
   import Staff from './pages/Staff.svelte';
-  import Wiki from './pages/Wiki.svelte';
   import Support from './pages/Support.svelte';
 
   import Navbar from './components/Navbar.svelte';
@@ -32,8 +31,6 @@
   <Vote />
   {:else if page === 'staff'}
   <Staff />
-  {:else if page === 'wiki'}
-  <Wiki />
   {:else if page === 'support'}
   <Support />
   {/if}

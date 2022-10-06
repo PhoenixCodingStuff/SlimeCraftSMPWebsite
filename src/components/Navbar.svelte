@@ -3,6 +3,7 @@
     export let setPage;
 
     const discordInvite = 'https://discord.gg/EtW8FCeGV7';
+    const wikiInvite = 'https://app.gitbook.com/o/RWzPCEFxI3vtCcj2PAYW/home'
 </script>
 
 <div class='navbar'>
@@ -10,7 +11,7 @@
         <span class="material-icons">home</span>
         Home
     </span>
-    <span id='invite' on:click="{e => window.open(discordInvite, '_blank').focus()}">
+    <span id='invite' on:click="{e => window.open(discordInvite)}">
         <img src={DiscordLogo} alt="Discord Logo"/>         
         Discord
     </span>
@@ -26,7 +27,7 @@
         <span class="material-icons">manage_accounts</span>
         Staff
     </span>
-    <span id='wiki' on:click={setPage}>
+    <span id='wiki' on:click="{e => window.open(wikiInvite)}">
         <span class="material-icons-outlined">info</span>
         Wiki
     </span>
