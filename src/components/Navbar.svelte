@@ -3,7 +3,7 @@
     export let setPage;
 
     const discordInvite = 'https://discord.gg/EtW8FCeGV7';
-    const wikiInvite = 'https://app.gitbook.com/o/RWzPCEFxI3vtCcj2PAYW/home'
+    const wikiInvite = 'https://slimecraftsmpwiki.gitbook.io/slimecraftsmp/'
 </script>
 
 <div class='navbar'>
