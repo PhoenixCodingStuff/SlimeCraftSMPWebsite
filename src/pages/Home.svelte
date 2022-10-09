@@ -24,7 +24,7 @@
     <h1>What are the features of SlimeCraftSMP?</h1>
         <p>
             I will only be talking about the "main" features since I do not wanna bore you all.
-            <br/>We support ALL <i>yes you heard me right ALL</i> versions from <b>1.9 to 1.19</b>!
+            <br/>We support ALL <i>yes you heard me right</i> ALL versions from <b>1.9 to 1.19</b>!
             <br/>We also <b>support bedrock</b> edition! You can join using your mobile , xbox , nintendo switch , console etc.
             <br/>We also run on the best hardware [AMD Ryzen 5 5600X 6-Core Processor] , so you will experience almost <b>no lag</b>!
         </p>

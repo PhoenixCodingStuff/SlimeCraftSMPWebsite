@@ -1,5 +1,6 @@
 <script>
     import McGrassBlock from "../assets/mc-grass-block.svg";
+    export let setPage;
 
     const guidelinesUri = 'https://discord.com/channels/923817461550297108/923817461877456905/972042285082624010';
     const staffTicketUri = 'https://discord.com/channels/923817461550297108/923817461877456905/999279418017054801';
@@ -44,7 +45,9 @@
     <br/>
     <h2>This player is being toxic! Hacker! Help!</h2>
         <p>
-            Found a hacker? Found a player breaking the server [rules](hyperlink to rules page)? Your base was griefed?
+            Found a hacker? Found a player breaking the server
+            <span id='rules' on:click={setPage}>rules</span>?
+            Your base was griefed?
             <br/>You can <a href={hackerTicketUri} target="_blank">create a ticket</a>!
             <br/>The player will be muted/banned. Grief will be rolled back. Your items will be refunded!
         </p>
@@ -72,6 +75,12 @@
 
     .mc-grass-block {
         position: absolute;
+    }
+
+    #rules {
+        color: #5865f2;
+        text-decoration: underline;
+        cursor: pointer;
     }
 
     .blue-glow {

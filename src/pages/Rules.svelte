@@ -61,7 +61,7 @@
         transform: rotate(-5deg);
     }
 
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 1600px) {
         .craft-sword {
             left: 96px;
         }

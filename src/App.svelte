@@ -11,13 +11,15 @@
   let page = 'home';
 
   function setPage(e) {
-    const target = e.target.parentElement.classList.contains('navbar') ? e.target : e.target.parentElement;
+    const target = e.target.classList.contains('material-icons') ? e.target.parentElement : e.target;
     document.querySelector(`.navbar #${page}`).classList.remove('selected');
     page = target.id;
     target.classList.add('selected');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   const navbarProps = { setPage };
+  const supportProps = { setPage };
 </script>
 
 <main class="expand">
@@ -32,7 +34,7 @@
   {:else if page === 'staff'}
   <Staff />
   {:else if page === 'support'}
-  <Support />
+  <Support {...supportProps}/>
   {/if}
 
 </main>
