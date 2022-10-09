@@ -1,58 +1,38 @@
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  color: #daffe7;
+  background-color: #002e00;
+}
 
-  color-scheme: light dark; */
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #36393f;
+html {
+  display: flex;
 }
 
 body {
+  display: flex;
+  flex-grow: 1;
   margin: 0;
 }
 
-h1, h2, p {
+#app {
+  display: flex;
+  flex-grow: 1;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  max-width: 50em;
+  text-align: justify;
+  margin: 2em auto;
+}
+
+h1 {
   text-align: center;
 }
 
-iframe {
-  display: block;
-  margin: 0 auto;
-}
-
 a {
-  color: blue;
-}
-
-button {
-  display: block;
-  color: var(--color);
-  transition: 0.25s;
-  background: none;
-  border: 2px solid;
-  font: inherit;
-  line-height: 1;
-  margin: auto;
-  margin-top: 2em;
-  padding: 1em 2em;
-}
-button:hover, button:focus {
-  border-color: var(--hover);
-  color: #fff;
-}
-
-.offset {
-  --color: #1973bc;
-  --hover: #19bc8b;
-  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
-}
-.offset:hover, .offset:focus {
-  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
-}
-
-.inverted {
-  --color: #19bc8b;
-  --hover: #1973bc;
+  color: #5865f2;
 }

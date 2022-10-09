@@ -20,7 +20,7 @@
   const navbarProps = { setPage };
 </script>
 
-<main>
+<main class="expand">
   <Navbar {...navbarProps}/>
 
   {#if page === 'home'}
@@ -36,3 +36,9 @@
   {/if}
 
 </main>
+
+<style>
+  .expand {
+    flex-grow: 1;
+  }
+</style>

@@ -12,8 +12,9 @@
         Home
     </span>
     <span id='invite' on:click="{e => window.open(discordInvite)}">
-        <img src={DiscordLogo} alt="Discord Logo"/>         
+        <img src={DiscordLogo} alt="Discord logo"/>
         Discord
+        <span class="material-icons">open_in_new</span>
     </span>
     <span id='rules' on:click={setPage}>
         <span class="material-icons">menu_book</span>
@@ -30,6 +31,7 @@
     <span id='wiki' on:click="{e => window.open(wikiInvite)}">
         <span class="material-icons-outlined">info</span>
         Wiki
+        <span class="material-icons">open_in_new</span>
     </span>
     <span id='support' on:click={setPage}>
         <span class="material-icons">settings</span>
@@ -39,12 +41,13 @@
 
 <style>
     .navbar {
-        background-color: #008b47;
+        font-family: 'Silkscreen', cursive;
+        background-color: #007a1a;
         margin: 0;
         padding-left: 128px;
         padding-right: 128px;
         height: 80px;
-        color: #6bb64a;
+        color: #17dd61;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -54,7 +57,6 @@
         cursor: pointer;
         padding: 16px;
         font-size: 20px;
-        /* border: 2px solid red; */
         display: flex;
         align-items: center;
     }
@@ -66,6 +68,6 @@
     }
 
     .selected {
-        color: #ffffff;
+        color: #aeffcd;
     }
 </style>
