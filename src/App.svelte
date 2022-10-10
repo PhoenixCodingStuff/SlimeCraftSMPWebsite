@@ -7,6 +7,8 @@
 
   import Navbar from './components/Navbar.svelte';
   import 'material-icons/iconfont/material-icons.css';
+
+  import ServerBanner from "./assets/server-banner.png";
   
   let page = 'home';
 

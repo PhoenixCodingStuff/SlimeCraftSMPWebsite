@@ -79,7 +79,6 @@
 
     #rules {
         color: #5865f2;
-        text-decoration: underline;
         cursor: pointer;
     }
 
