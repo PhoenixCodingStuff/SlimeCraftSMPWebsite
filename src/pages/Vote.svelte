@@ -9,31 +9,31 @@
 </script>
 
 <main class="container">
-    <button class="offset inverted" on:click="{e => voteUris.forEach(uri => window.open(uri))}">
+    <button class="offset inverted" on:click={e => voteUris.forEach(uri => window.open(uri))}>
         Vote on All!
     </button>
     <p class="caption">
         Make sure to enable popups for this website!
-        <a href="https://support.google.com/chrome/answer/95472" target="_blank">See How</a>.
+        <a href="https://support.google.com/chrome/answer/95472" target="_blank" rel="noreferrer">See How</a>.
     </p>
     <br/>
-    <button class="offset" on:click="{e => window.open(voteUris[0])}">
+    <button class="offset" on:click={e => window.open(voteUris[0])}>
         Vote on minecraft-mp.com
     </button>
     <br/>
-    <button class="offset" on:click="{e => window.open(voteUris[1])}">
+    <button class="offset" on:click={e => window.open(voteUris[1])}>
         Vote on minecraft-server.net
     </button>
     <br/>
-    <button class="offset" on:click="{e => window.open(voteUris[2])}">
+    <button class="offset" on:click={e => window.open(voteUris[2])}>
         Vote on minecraftservers.org
     </button>
     <br/>
-    <button class="offset" on:click="{e => window.open(voteUris[3])}">
+    <button class="offset" on:click={e => window.open(voteUris[3])}>
         Vote on topmcservers.com
     </button>
     <br/>
-    <button class="offset" on:click="{e => window.open(voteUris[4])}">
+    <button class="offset" on:click={e => window.open(voteUris[4])}>
         Vote on servers-minecraft.net
     </button>
 </main>

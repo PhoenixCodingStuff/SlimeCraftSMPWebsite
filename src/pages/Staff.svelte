@@ -14,32 +14,32 @@
     <h1 style="color:orange;"> Admins</h1>
         <p style="color:orange;">
             Fl__uffy / Fl__uffy#5899
+            Astegon / Eratix#8506
         </p>
     <br/>
     <h1 style="color:orange;"> Developers</h1>
         <p style="color:orange;">
-            poopjoek / Forkbomb (real)#5890
+            poopjoek / Uncle Forkbomb#5890
         </p>
     <br/>
     <h1 style="color:yellow;"> Moderators</h1>
         <p style="color:yellow;">
-            Astegon / Eratix#8506
             <br/>MinecraftIsaac7 / Isaac_the_dest#8133
         </p>
     <br/>
     <h1 style="color:lime;"> Helpers</h1>
         <p style="color:lime;">
             Sosvk1234567 / Sosvk#9297
-            <br/>*Grudge0nMe / ♡De'Vil♡#8023
+            <br/>*rishabh098 / rishabh098#1180
         </p>
     <br/>
-    <h1 style="color:blue;"> Media</h1>
-        <p style="color:blue;">
+    <h1 style="color:royalblue;"> Media</h1>
+        <p style="color:royalblue;">
             None. You can apply by creating a ticket on discord!
         </p>
     <br/>
-    <h1 style="color:indigo;"> Artists</h1>
-        <p style="color:indigo;">
+    <h1 style="color:blueviolet;"> Artists</h1>
+        <p style="color:blueviolet;">
             NegativeIonEn / NegativeIonEntity#8497
         </p>
 </main>

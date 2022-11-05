@@ -1,6 +1,7 @@
 <script>
-  import McLogo from "../assets/mc-logo.svg";
-  import McEmerald from "../assets/mc-emerald.png";
+    import McLogo from "../assets/mc-logo.svg";
+    import McEmerald from "../assets/mc-emerald.png";
+    export let navigateTo;
 </script>
 
 <main class="container">
@@ -30,7 +31,7 @@
         </p>
     <h2>We have-</h2>
         <ul>
-            <li><b>Custom terrain</b> in the overworld , nether and the end! Pictures gallery coming soon!</li>
+            <li><b>Custom terrain</b> in the overworld , nether and the end! View pictures <span tabindex="0" class="link" on:click={() => navigateTo('gallery')} on:keypress={() => navigateTo('gallery')}>here</span>!</li>
             <li>An <b>active staff</b> team from different parts of the world to help you within 24 hours!</li>
             <li>A <b>skills plugin</b> like that on hypixel skyblock.</li>
             <li><b>Custom enchants</b>! Get one or multiple of the OP enchants you like and dominate the server!</li>
@@ -59,5 +60,9 @@
         position: absolute;
         left: -32px;
         transform: rotate(10deg);
+    }
+    .link {
+        color: #5865f2;
+        cursor: pointer;
     }
 </style>
