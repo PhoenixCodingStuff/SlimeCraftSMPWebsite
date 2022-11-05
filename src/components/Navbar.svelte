@@ -1,51 +1,54 @@
 <script>
     import DiscordLogo from "../assets/discord.svg";
-    export let setPage;
+    export let navigateTo;
 
-    const discordInvite = 'https://discord.gg/EtW8FCeGV7';
-    const wikiInvite = 'https://slimecraftsmpwiki.gitbook.io/slimecraftsmp/'
+    const discordInvite = 'https://discord.gg/DZVDucC4jG';
+    const wikiInvite = 'https://slimecraftsmpwiki.gitbook.io/slimecraftsmp/';
 </script>
 
-<div class='navbar'>
-    <span id='home' class="selected" on:click={setPage}>
+<nav class='navbar'>
+    <span></span>
+    <span id='home' tabindex="0" on:click={() => navigateTo('home')} on:keypress={() => navigateTo('home')}>
         <span class="material-icons">home</span>
         Home
     </span>
-    <span id='invite' on:click="{e => window.open(discordInvite)}">
+    <span tabindex="0" on:click={() => window.open(discordInvite)} on:keypress={() => window.open(discordInvite)}>
         <img src={DiscordLogo} alt="Discord logo"/>
         Discord
         <span class="material-icons">open_in_new</span>
     </span>
-    <span id='rules' on:click={setPage}>
+    <span id='rules' tabindex="0" on:click={() => navigateTo('rules')} on:keypress={() => navigateTo('rules')}>
         <span class="material-icons">menu_book</span>
         Rules
     </span>
-    <span id='vote' on:click={setPage}>
+    <span id='vote' tabindex="0" on:click={() => navigateTo('vote')} on:keypress={() => navigateTo('vote')}>
         <span class="material-icons">check_box</span>
         Vote
     </span>
-    <span id='staff' on:click={setPage}>
+    <span id='staff' tabindex="0" on:click={() => navigateTo('staff')} on:keypress={() => navigateTo('staff')}>
         <span class="material-icons">manage_accounts</span>
         Staff
     </span>
-    <span id='wiki' on:click="{e => window.open(wikiInvite)}">
+    <span tabindex="0" on:click={() => window.open(wikiInvite)} on:keypress={() => window.open(wikiInvite)}>
         <span class="material-icons-outlined">info</span>
         Wiki
         <span class="material-icons">open_in_new</span>
     </span>
-    <span id='support' on:click={setPage}>
+    <span id='support' tabindex="0" on:click={() => navigateTo('support')} on:keypress={() => navigateTo('support')}>
         <span class="material-icons">settings</span>
         Support
     </span>
-</div>
+    <span id='gallery' tabindex="0" on:click={() => navigateTo('gallery')} on:keypress={() => navigateTo('gallery')}>
+        <span class="material-icons">photo_library</span>
+        Gallery
+    </span>
+    <span></span>
+</nav>
 
 <style>
     .navbar {
         font-family: 'Silkscreen', cursive;
         background-color: #007a1a;
-        margin: 0;
-        padding-left: 128px;
-        padding-right: 128px;
         height: 80px;
         color: #17dd61;
         display: flex;
@@ -65,9 +68,5 @@
         width: 24px;
         height: 24px;
         margin-right: 8px;
-    }
-
-    .selected {
-        color: #aeffcd;
     }
 </style>

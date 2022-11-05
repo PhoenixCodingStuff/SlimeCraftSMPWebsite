@@ -5,6 +5,10 @@
   background-color: #002e00;
 }
 
+h1, h2 {
+  font-family: 'Quicksand-Bold', sans-serif;
+}
+
 html {
   display: flex;
 }
@@ -26,7 +30,7 @@ body {
 .container {
   max-width: 50em;
   text-align: justify;
-  margin: 2em auto;
+  margin: 3em auto;
 }
 
 h1 {
@@ -35,4 +39,21 @@ h1 {
 
 a {
   color: #5865f2;
+}
+
+.selected {
+  color: #aeffcd !important;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./assets/Quicksand/Quicksand-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand-Bold';
+  src: url('./assets/Quicksand/Quicksand-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Silkscreen';
+  src: url('./assets/Silkscreen/Silkscreen-Regular.ttf') format('truetype');
 }
