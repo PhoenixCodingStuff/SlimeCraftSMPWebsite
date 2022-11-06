@@ -26,9 +26,9 @@
 
 <Navbar navigateTo={navigateTo} />
 
-<Route> <Home navigateTo={navigateTo} /> </Route>
-<Route path="rules"> <Rules /> </Route>
-<Route path="vote"> <Vote /> </Route>
-<Route path="staff"> <Staff /> </Route>
-<Route path="support"> <Support navigateTo={navigateTo} /> </Route>
-<Route path="gallery"> <Gallery /> </Route>
+<Route path="/gallery"> <Gallery /> </Route>
+<Route path="/support"> <Support navigateTo={navigateTo} /> </Route>
+<Route path="/staff"> <Staff /> </Route>
+<Route path="/vote"> <Vote /> </Route>
+<Route path="/rules"> <Rules /> </Route>
+<Route path="/*"> <Home navigateTo={navigateTo} /> </Route>
